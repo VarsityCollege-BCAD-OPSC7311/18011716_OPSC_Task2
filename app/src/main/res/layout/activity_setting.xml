@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/lastname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:text="L"
+        android:textColor="@android:color/background_dark"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="218dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:text="Please select a system metric"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:text="F"
+        android:textColor="@android:color/background_dark"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:text="Welcome"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rbGroup"
+        android:layout_width="170dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/metric"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:fontFamily="@font/alegreya_sc_bold"
+            android:text="Metric" />
+        <RadioButton
+            android:id="@+id/imperial"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:fontFamily="@font/alegreya_sc_bold"
+            android:text="Imperial" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
